@@ -3,47 +3,50 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-
-  /* for debugging */
-  border: 1px solid red;
-
-  /* global default font */
   font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  color: blue;
-  font-size: 25px;
-}
-
-.outer-container {
-  padding: 10px;
-  height: 100vh;
-}
-
-body {
-}
-button {
-  outline: none;
-  color: blue;
-  font-size: 25px;
   background-color: white;
 }
 
-/* Top-Bar Container */
-.top-bar p {
-float: right;
+.top-bar {
+display: flex;
+justify-content: space-between;
+margin-right: 30px;
+margin-left: 30px;
 }
 
-/* Inner-Container Section */
-.inner-container{
-  background-color: black;
-  height: 100%;
+.wrapper {
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+
+  /* margin: 100px auto 0 auto; */
+  max-width: 600px;
 }
 
+.hidden {
+  display: none;
+}
 
-/* Header/Quiz Intro Section */
+.start {
+  text-align: center;
+}
 
+a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.1s;
+}
 
+a:hover {
+  color: #1717f4;
+}
 
-/* Main Quiz Content */
+button {
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+button:hover {
+  color: #1717f4;
+}

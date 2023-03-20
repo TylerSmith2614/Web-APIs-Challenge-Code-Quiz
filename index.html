@@ -8,23 +8,39 @@
   <title>Tyler's Web API Code Quiz</title>
 </head>
 <body>
-  <!-- main outer div -->
-  <div class="outer-container">
     <!-- top bar section -->
       <div class="top-bar">
-        <button>View Highscores</button> 
-        <p>Timer: 00:00</p>
+        <button class="scores"><a href="./score.html">View Highscores</a></button> 
+        <p class="timer">Time: <span id="time">0</span></p>
       </div>
-      <!-- inner div -->
-      <div class="inner-container">
-          <header class="quiz-intro">
+      <!-- main section -->
+      <main class="wrapper">
+        <div id="start-screen" class= "start">
+          <h1>Coding Quiz Challenge</h1>
+          <p>
+            Take this quiz to next your knowledge of coding related questions!
+          </p>
+          <button id="start">Start</button>
+        </div>
 
-          </header>
-          <main>
+        <div id="questions" class="hidden"></div>
+        <h2 id="question-title"></h2>
+        <div id="choices" class="choices"></div>
 
-          </main>
-      </div>
-  </div>
+        <div id="end-screen" class="hidden">
+            <h3>All Done!</h3>
+            <p>Your score is <span id="final-score"></span>!</p>
+            <p>
+              Enter Initials: <input type="text" id="initials" max="3"/>
+              <button id="submit">Submit</button>
+            </p>
+        </div>
+
+          <div id="feedback" class="feedback hidden"></div>
+
+        <script src="./assets/script.js"></script>
+      </main>
+    
   <script src="./assets/script.js"></script>
 </body>
 </html>
