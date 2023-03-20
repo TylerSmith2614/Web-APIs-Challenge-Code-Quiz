@@ -1,0 +1,49 @@
+/* global decorations */
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+  /* for debugging */
+  border: 1px solid red;
+
+  /* global default font */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: blue;
+  font-size: 25px;
+}
+
+.outer-container {
+  padding: 10px;
+  height: 100vh;
+}
+
+body {
+}
+button {
+  outline: none;
+  color: blue;
+  font-size: 25px;
+  background-color: white;
+}
+
+/* Top-Bar Container */
+.top-bar p {
+float: right;
+}
+
+/* Inner-Container Section */
+.inner-container{
+  background-color: black;
+  height: 100%;
+}
+
+
+/* Header/Quiz Intro Section */
+
+
+
+/* Main Quiz Content */
