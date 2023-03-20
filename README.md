@@ -1,5 +1,26 @@
 # 04 Web APIs: Code Quiz
 
+#Decription 
+
+I created a timed coding quiz using CSS, Javascript, and HTML. 
+
+#Link to Deploy
+https://tylersmith2614.github.io/Web-APIs-Challenge-Code-Quiz/index.html
+
+#Note of help with source code
+Referenced serveral youtube video tutorial on building Quiz Apps and Timers as guide with the javascript code. Also received help from my software engineer friend John Mcbride.
+https://www.youtube.com/watch?v=f4fB9Xg2JEY
+https://www.youtube.com/watch?v=f24W7gzdBec
+https://www.youtube.com/watch?v=WUBhpSRS_fk&t=3187s
+https://www.youtube.com/watch?v=AFTvxsVv52k
+https://www.youtube.com/watch?v=AFTvxsVv52k
+
+
+# Screenshots
+![Alt text](assets/Challenge%204%20Screenshot%201.png)
+![Alt text](assets/Challenge%204%20Screenshot%202.png)
+![Alt text](assets/Challenge%204%20Screenshot%203.png)
+![Alt text](assets/Challenge%204%20Screenshot%204.png)
 ## Your Task
 
 At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
