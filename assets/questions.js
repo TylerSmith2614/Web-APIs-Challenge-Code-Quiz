@@ -6,7 +6,7 @@ var questions = [
     question: "HTML stands for ",
     choices: ["HighText Machine Language", "HyperText and links Markup Language", "HyperText Markup Language",
      "None of the above"],
-    answer: "All the below"
+    answer: "HyperText Markup Language"
   },
   {
     question: "The correct sequence of HTML tags for starting a webpage is ",
